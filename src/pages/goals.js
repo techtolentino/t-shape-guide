@@ -5,7 +5,6 @@ import Layout from "../components/layout";
 
 const GoalsPage = ({ data }) => (
   <Layout>
-    <h1>Goals</h1>
     {data.allMarkdownRemark.edges.map(goal => (
       <div key={goal.node.id}>
         <h3>{goal.node.frontmatter.title}</h3>
@@ -18,15 +17,16 @@ const GoalsPage = ({ data }) => (
 );
 
 export const goalsQuery = graphql`
-  query GoalsIndexQuery {
+  query GoalsIndexQueryOne {
     allMarkdownRemark {
       edges {
         node {
           id
           frontmatter {
             path
-            title
+            description
             date
+            title
             category
           }
         }

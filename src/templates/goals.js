@@ -2,17 +2,39 @@ import React from "react";
 import Link from "gatsby-link";
 
 export default function Template({ data }) {
-  const post = data.markdownRemark;
+  const goal = data.markdownRemark;
 
   return (
     <div>
-      <Link to="/goals">Go Back</Link>
-      <hr />
-      <h1>{post.frontmatter.title}</h1>
-      <h4>
-        Posted by {post.frontmatter.author} on {post.frontmatter.date}
-      </h4>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className="bx--grid">
+        <div className="bx--row">
+          <div className="bx--col">
+            <div className="nav--link-return">
+              <Link to="/">Go Back</Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main>
+        <div className="bx--grid">
+          <div className="bx--row">
+            <div className="bx--col">
+              <div className="page--meta">
+                <h1>{goal.frontmatter.title}</h1>
+                <p>{goal.frontmatter.category}</p>
+              </div>
+            </div>
+          </div>
+          <div className="bx--row">
+            <div className="bx--col">
+              <div
+                className="page--content"
+                dangerouslySetInnerHTML={{ __html: goal.html }}
+              />
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
@@ -25,6 +47,7 @@ export const postQuery = graphql`
         path
         title
         date
+        category
       }
     }
   }

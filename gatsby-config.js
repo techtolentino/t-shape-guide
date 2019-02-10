@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -28,6 +30,19 @@ module.exports = {
         name: `pages`
       }
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        includePaths: [path.resolve(__dirname, "node_modules")],
+        importer: (url, prev, done) => {
+          done({
+            file: !/import-once(\.scss)?$/.test(url)
+              ? url
+              : path.resolve(__dirname, "src/styles/import-once")
+          });
+        }
+      }
+    }
   ]
 };

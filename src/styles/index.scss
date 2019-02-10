@@ -1,0 +1,14 @@
+// Carbon Elements
+
+@import "@carbon/import-once/scss/import-once";
+@import "@carbon/grid/scss/grid";
+@import "@carbon/grid/scss/aspect-ratio.scss";
+@import "@carbon/type/scss/bundle";
+@import "@carbon/colors/scss/colors";
+
+// Init
+@import "global/normalize";
+@import "global/body";
+
+// Components
+@import "components/card";
