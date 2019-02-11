@@ -18,7 +18,7 @@ export default function Template({ data }) {
       <main>
         <div className="bx--grid">
           <div className="bx--row">
-            <div className="bx--col">
+            <div className="bx--col-lg-2">
               <div className="page--meta">
                 <h1>{goal.frontmatter.title}</h1>
                 <p>{goal.frontmatter.category}</p>

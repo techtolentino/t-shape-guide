@@ -49,6 +49,11 @@ const GoalsPage = ({ data }) => (
   </Layout>
 );
 
+function checkCategory(props) {
+  const childProps = props;
+  return childProps;
+}
+
 export const goalsQuery = graphql`
   query GoalsIndexQuery {
     allMarkdownRemark {
