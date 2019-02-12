@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "gatsby-link";
+import Layout from "../components/layout";
 
 export default function Template({ data }) {
   const goal = data.markdownRemark;
 
   return (
-    <div>
+    <Layout>
       <div className="bx--grid">
         <div className="bx--row bx--offset-lg-1">
           <div className="bx--col">
@@ -20,7 +21,7 @@ export default function Template({ data }) {
           <div className="bx--row bx--offset-lg-1">
             <div className="bx--col">
               <div className="page--meta">
-                <h1>{goal.frontmatter.title}</h1>
+                <h1 className="card--link-title">{goal.frontmatter.title}</h1>
                 <p>{goal.frontmatter.category}</p>
               </div>
             </div>
@@ -35,7 +36,7 @@ export default function Template({ data }) {
           </div>
         </div>
       </main>
-    </div>
+    </Layout>
   );
 }
 
