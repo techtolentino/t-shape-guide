@@ -26,36 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `src/pages/skill-areas/community`,
-        name: `community-pages`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `src/pages/skill-areas/development`,
-        name: `development-pages`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `src/pages/skill-areas/leadership`,
-        name: `leadership-pages`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `src/pages/skill-areas/design`,
-        name: `design-pages`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `src/pages/skill-areas/domain`,
-        name: `domain-pages`
+        path: `src/pages`,
+        name: `pages`
       }
     },
     `gatsby-transformer-remark`,

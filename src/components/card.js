@@ -4,9 +4,7 @@ import React from "react";
 const Card = ({ children }) => (
   <div className="card">
     <div className="bx--aspect-ratio bx--aspect-ratio--align bx--aspect-ratio--1x1">
-      <div className="bx--aspect-ratio--object">
-        <div className="">{children}</div>
-      </div>
+      <div className="bx--aspect-ratio--object">{children}</div>
     </div>
   </div>
 );

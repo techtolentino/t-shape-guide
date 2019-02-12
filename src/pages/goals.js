@@ -17,7 +17,7 @@ const GoalsPage = ({ data }) => (
 );
 
 export const goalsQuery = graphql`
-  query GoalsIndexQueryOne {
+  query GoalsIndexQuery {
     allMarkdownRemark {
       edges {
         node {

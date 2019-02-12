@@ -7,7 +7,7 @@ export default function Template({ data }) {
   return (
     <div>
       <div className="bx--grid">
-        <div className="bx--row">
+        <div className="bx--row bx--offset-lg-1">
           <div className="bx--col">
             <div className="nav--link-return">
               <Link to="/">Go Back</Link>
@@ -17,8 +17,8 @@ export default function Template({ data }) {
       </div>
       <main>
         <div className="bx--grid">
-          <div className="bx--row">
-            <div className="bx--col-lg-2">
+          <div className="bx--row bx--offset-lg-1">
+            <div className="bx--col">
               <div className="page--meta">
                 <h1>{goal.frontmatter.title}</h1>
                 <p>{goal.frontmatter.category}</p>

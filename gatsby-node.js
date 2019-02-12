@@ -7,15 +7,19 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   return graphql(`
     {
       allMarkdownRemark {
-        edges {
-          node {
-            html
-            id
-            frontmatter {
-              path
-              title
-              date
-              category
+        group(field: frontmatter___category) {
+          fieldValue
+          totalCount
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                path
+                description
+                date
+                category
+              }
             }
           }
         }
@@ -26,11 +30,23 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       return Promise.reject(res.errors);
     }
 
-    res.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: goalTemplate
-      });
-    });
+    res.data.allMarkdownRemark.group.forEach(post =>
+      post.edges.forEach(item => {
+        createPage({
+          path: item.node.frontmatter.path,
+          component: goalTemplate
+        });
+      })
+    );
+
+    // res.data.allMarkdownRemark.group.forEach(({ node }) => {
+    //   console.log(node, "<<<<< node");
+
+    //   node.edges.forEach({ item });
+    // createPage({
+    //   path: node.frontmatter.path,
+    //   component: goalTemplate
+    // });
+    // });
   });
 };
