@@ -2,7 +2,6 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 
 import Card from "../components/card";
-import CardHeader from "../components/cardHeader";
 import Layout from "../components/layout";
 
 const IndexPage = ({ data }) => (
@@ -11,10 +10,6 @@ const IndexPage = ({ data }) => (
       <div className="bx--row bx--offset-lg-1">
         {data.allMarkdownRemark.group.map(group => (
           <div className="bx--col-lg-3" key={group.fieldValue}>
-            <CardHeader>
-              <h4 className="card--header">{group.fieldValue}</h4>
-            </CardHeader>
-
             {group.edges.map(item => (
               <Link
                 key={item.node.id}
