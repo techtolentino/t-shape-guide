@@ -38,15 +38,5 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         });
       })
     );
-
-    // res.data.allMarkdownRemark.group.forEach(({ node }) => {
-    //   console.log(node, "<<<<< node");
-
-    //   node.edges.forEach({ item });
-    // createPage({
-    //   path: node.frontmatter.path,
-    //   component: goalTemplate
-    // });
-    // });
   });
 };

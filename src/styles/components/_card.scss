@@ -3,15 +3,28 @@
     display: block;
     padding: 1rem;
     margin: 2px;
+    position: relative;
     color: $ibm-colors__gray-90;
     border: 1px solid $ibm-colors__gray-30;
     text-decoration: none;
-    transition: background 0.2s ease, border 0.2s ease;
+    transition: background 0.2s ease, border 0.2s ease, color 0.2s ease;
+
+    &[data-priority="primary"] {
+      background: $ibm-colors__blue-70;
+      color: $ibm-colors__white-0;
+      transition: background 0.2s ease, border 0.2s ease, color 0.2s ease;
+
+      &:hover {
+        background: $ibm-colors__blue-80;
+        color: $ibm-colors__white-0;
+        transition: background 0.2s ease, border 0.2s ease, color 0.2s ease;
+      }
+    }
 
     &:hover {
       background: $ibm-colors__white-0;
       text-decoration: none;
-      border: 1px solid $ibm-colors__blue-50;
+      border: 1px solid $ibm-colors__blue-70;
       transition: background 0.2s ease, border 0.2s ease;
     }
 
@@ -21,11 +34,15 @@
 
     &-description {
       font-size: 0.875rem;
+      margin-bottom: 1rem;
+      line-height: 1.25;
     }
 
-    &-date,
     &-category {
       font-size: 0.75rem;
+      position: absolute;
+      bottom: 0;
+      font-weight: 600;
     }
 
     &-icon {
@@ -41,9 +58,10 @@
   }
 
   &--header {
-    padding: 1rem;
-    background: $ibm-colors__gray-30;
-    margin: 2px;
+    padding: 0.25rem;
+    background: $ibm-colors__gray-90;
+    // font-weight: 400;
+    margin: 0 2px;
     color: $ibm-colors__white-0;
   }
 }

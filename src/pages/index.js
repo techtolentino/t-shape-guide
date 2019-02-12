@@ -10,9 +10,9 @@ const IndexPage = ({ data }) => (
     <div className="bx--grid bx--grid--condensed">
       <div className="bx--row bx--offset-lg-1">
         {data.allMarkdownRemark.group.map(group => (
-          <div className="bx--col-md-2 bx--col-lg-3" key={group.fieldValue}>
+          <div className="bx--col-lg-3" key={group.fieldValue}>
             <CardHeader>
-              <h3>{group.fieldValue}</h3>
+              <h4 className="card--header">{group.fieldValue}</h4>
             </CardHeader>
 
             {group.edges.map(item => (
@@ -20,9 +20,18 @@ const IndexPage = ({ data }) => (
                 key={item.node.id}
                 className="card--link"
                 to={item.node.frontmatter.path}
+                data-priority={item.node.frontmatter.priority}
               >
                 <Card>
-                  <h3>{item.node.frontmatter.title}</h3>
+                  <h3 className="card--link-title">
+                    {item.node.frontmatter.title}
+                  </h3>
+                  <p className="card--link-description">
+                    {item.node.frontmatter.description}
+                  </p>
+                  <p className="card--link-category">
+                    {item.node.frontmatter.category}
+                  </p>
                 </Card>
               </Link>
             ))}
@@ -48,6 +57,7 @@ export const goalsQuery = graphql`
               description
               date
               category
+              priority
             }
           }
         }
