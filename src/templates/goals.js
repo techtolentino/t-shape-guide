@@ -21,13 +21,14 @@ export default function Template({ data }) {
           <div className="bx--row">
             <div className="bx--col-lg-8 bx--offset-lg-1">
               <div className="page--header">
-                <h1 className="card--link-title">{goal.frontmatter.title}</h1>
-                <p>{goal.frontmatter.category}</p>
+                <h1 className="page--header-title">{goal.frontmatter.title}</h1>
+                <p className="page--header-meta">{goal.frontmatter.category}</p>
               </div>
             </div>
           </div>
           <div className="bx--row">
             <div className="bx--col-lg-8 bx--offset-lg-1">
+            <h2 className="page--section-header">Overview</h2>
               <div
                 className="page--content"
                 dangerouslySetInnerHTML={{ __html: goal.html }}

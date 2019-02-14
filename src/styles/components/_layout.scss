@@ -5,6 +5,15 @@
 .page {
     &--header {
         padding-bottom: 3rem;
+
+        &-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        &-meta {
+            font-size: .875rem;
+        }
     }
 
     &--link {
@@ -19,8 +28,12 @@
             transition: color 0.2s ease;
         }
     }
-    &--content {
 
+    &--section-header {
+        padding-bottom: 1.25rem;
+    }
+
+    &--content {
         p {
             padding-bottom: 1rem;
         }
