@@ -8,8 +8,8 @@ export default function Template({ data }) {
   return (
     <Layout>
       <div className="bx--grid">
-        <div className="bx--row bx--offset-lg-1">
-          <div className="bx--col">
+        <div className="bx--row">
+          <div className="bx--col bx--offset-lg-1">
             <div className="nav--link-return">
               <Link to="/">Go Back</Link>
             </div>
@@ -18,16 +18,16 @@ export default function Template({ data }) {
       </div>
       <main>
         <div className="bx--grid">
-          <div className="bx--row bx--offset-lg-1">
-            <div className="bx--col">
-              <div className="page--meta">
+          <div className="bx--row">
+            <div className="bx--col-lg-8 bx--offset-lg-1">
+              <div className="page--header">
                 <h1 className="card--link-title">{goal.frontmatter.title}</h1>
                 <p>{goal.frontmatter.category}</p>
               </div>
             </div>
           </div>
           <div className="bx--row">
-            <div className="bx--col">
+            <div className="bx--col-lg-8 bx--offset-lg-1">
               <div
                 className="page--content"
                 dangerouslySetInnerHTML={{ __html: goal.html }}

@@ -1,3 +1,29 @@
 .main {
     padding: 3rem 0;
 }
+
+.page {
+    &--header {
+        padding-bottom: 3rem;
+    }
+    &--content {
+
+        p {
+            padding-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 2rem;
+        }
+
+        li {
+            text-indent: -1rem;
+        }
+
+        ul >li:before {
+            margin-right: .5rem;
+            content: "–";
+        }
+    }
+}
