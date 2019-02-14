@@ -1,7 +1,7 @@
 ---
 path: "/design/design-thinking-facilitation"
 description: "Gaining more experience in facilitation"
-date: "2019-02-11"
+date: ""
 title: "Design Thinking Facilitation"
 category: "design"
 ---

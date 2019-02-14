@@ -1,7 +1,7 @@
 ---
 path: "/design/a11y"
 description: "Strengthening accessibility foundations"
-date: "2019-02-11"
+date: ""
 title: "a11y"
 category: "design"
 ---

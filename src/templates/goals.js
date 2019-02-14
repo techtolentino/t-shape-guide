@@ -11,7 +11,7 @@ export default function Template({ data }) {
         <div className="bx--row">
           <div className="bx--col bx--offset-lg-1">
             <div className="nav--link-return">
-              <Link to="/">Go Back</Link>
+              <Link className="page--link" to="/">Go Back</Link>
             </div>
           </div>
         </div>

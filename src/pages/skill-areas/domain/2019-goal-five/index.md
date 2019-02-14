@@ -1,5 +1,5 @@
 ---
-path: "/domain/goal-four"
+path: "/domain/goal-five"
 description: ""
 date: ""
 title: ""

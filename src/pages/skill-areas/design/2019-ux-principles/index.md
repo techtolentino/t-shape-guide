@@ -1,7 +1,7 @@
 ---
 path: "/design/learning-ux"
 description: "Enhancing understanding of UX principles"
-date: "2019-02-10"
+date: ""
 title: "Learning UX"
 category: "design"
 ---
