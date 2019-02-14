@@ -9,5 +9,5 @@ Having a strong grasp on the latest accessibility specs and best practices is cr
 
   - UI elements (typeface, color-contrast, spacing)
   - understanding assistive devices and how to test using them
-  - keying through an application 
+  - keying through an application
 

@@ -1,7 +1,7 @@
 ---
 path: "/design/ibm-design-language"
 description: "Gaining familiarity With the IBM Design Language"
-date: "2019-02-10"
+date: "2019-02-13"
 title: "Learning the Language"
 category: "design"
 priority: primary

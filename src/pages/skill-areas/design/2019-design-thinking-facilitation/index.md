@@ -8,5 +8,5 @@ category: "design"
 
 Outside of our product teams, I'd like to help facilitate the growth for people who are looking to learn Design Thinking. My goal is to participate in facilitation workshops such as:
 
-  - volunteering for in Studio Design Thinking workshops 
+  - volunteering for in Studio Design Thinking workshops
   - participating in external community programs that are using Design Thinking
