@@ -11,7 +11,9 @@ export default function Template({ data }) {
         <div className="bx--row">
           <div className="bx--col bx--offset-lg-1">
             <div className="nav--link-return">
-              <Link className="page--link" to="/">Go Back</Link>
+              <Link className="page--link" to="/">
+              <svg className="page--return" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M6.7 12.3L2.9 8.5H15v-1H2.9l3.8-3.8L6 3 1 8l5 5z"></path></svg>
+              </Link>
             </div>
           </div>
         </div>
