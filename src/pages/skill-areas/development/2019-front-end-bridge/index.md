@@ -5,6 +5,7 @@ date: "2019-02-10"
 title: "The Front End Bridge"
 category: "development"
 priority: primary
+order: 1
 ---
 
 Sitting within a Design Studio, there's a inherit bias towards fighting for design (I'm an advocate). Oftentimes, this can be misinterpreted from the outside as 'fighting for designers first'. My goal in this area is to help bridge the process, respecting all disciplines involved in building out an experience. This will be mostly a communication goal, but also requires a specialized understanding of the technical feasibilities and constraints of the product team:

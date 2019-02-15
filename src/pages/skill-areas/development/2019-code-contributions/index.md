@@ -5,6 +5,7 @@ date: "2019-02-10"
 title: "Code Contributions"
 category: "development"
 priority: primary
+order: 2
 ---
 
 One of the ways that I can be most valuable on the Security team is through the contributions of code. In the next year, I envision accomplishing this through the following ways:

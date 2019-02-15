@@ -4,6 +4,7 @@ description: "Gaining more experience in facilitation"
 date: ""
 title: "Design Thinking Facilitation"
 category: "design"
+order: 3
 ---
 
 Outside of our product teams, I'd like to help facilitate the growth for people who are looking to learn Design Thinking. My goal is to participate in facilitation workshops such as:

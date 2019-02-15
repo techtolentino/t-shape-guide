@@ -5,6 +5,7 @@ date: "2019-02-10"
 title: "Security Badges"
 category: "domain"
 priority: primary
+order: 1
 ---
 
 Aside from learning through working on a product team or seeing what other designers are doing through Design Jams, I'd love to extend my understanding of the larger Enterprise Security ecosystem. 

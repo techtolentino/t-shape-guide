@@ -39,7 +39,7 @@ const IndexPage = ({ data }) => (
 
 export const goalsQuery = graphql`
   query IndexPageQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: {fields: [frontmatter___order], order: ASC}) {
       group(field: frontmatter___category) {
         fieldValue
         totalCount
@@ -47,6 +47,7 @@ export const goalsQuery = graphql`
           node {
             id
             frontmatter {
+              order
               title
               path
               description

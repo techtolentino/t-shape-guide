@@ -4,6 +4,7 @@ description: "Strengthening accessibility foundations"
 date: ""
 title: "a11y"
 category: "design"
+order: 2
 ---
 Having a strong grasp on the latest accessibility specs and best practices is cross-discipline responsibility. While I have a decent level of understanding, I could definitely improve in the following areas:
 

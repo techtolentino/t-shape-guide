@@ -4,6 +4,7 @@ description: "Finding ways how to help others grow in their careers"
 date: "2019-02-10"
 title: "Mentorship"
 category: "leadership"
+order: 1
 ---
 
 It has always been in my personal culture to help others, specifically in areas where I'm considered an established professional. Mentorship, in my opinion, is the unofficial manager role, and I've had prior success in being both a mentee and a mentor. 
