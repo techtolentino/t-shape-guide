@@ -86,3 +86,15 @@
   }
 
 }
+
+@media (max-width: 82rem) {
+  .card--link-description {
+    display: none;
+  }
+}
+
+@media (max-width: 66rem) {
+  .card--link-description {
+    display: block;
+  }
+}
