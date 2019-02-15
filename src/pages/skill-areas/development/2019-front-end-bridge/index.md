@@ -6,9 +6,16 @@ title: "The Front End Bridge"
 category: "development"
 priority: primary
 order: 1
+resources:
+  - Design Lead
+  - GitHub Wiki
+  - Design Jams
+  - Medium
 ---
 
-Sitting within a Design Studio, there's a inherit bias towards fighting for design (I'm an advocate). Oftentimes, this can be misinterpreted from the outside as 'fighting for designers first'. My goal in this area is to help bridge the process, respecting all disciplines involved in building out an experience. This will be mostly a communication goal, but also requires a specialized understanding of the technical feasibilities and constraints of the product team:
+Sitting within a Design Studio, there's a inherit bias towards fighting for design (I'm an advocate). Oftentimes, this can be misinterpreted from the outside as 'fighting for designers first'. My goal in this area is to help bridge the process, respecting all disciplines involved in building out an experience. 
+
+This will be mostly a communication goal, but also requires a specialized understanding of the technical feasibilities and constraints of the product team:
 
   - establish a healthy relationship with members of the product development team in which I'm embedded in
   - be more vocal during design jams to raise awareness about technical constraints

@@ -6,6 +6,12 @@ title: "Learning the Language"
 category: "design"
 priority: primary
 order: 1
+resources:
+  - IBM Design Language website
+  - Essentials course
+  - Carbon website
+  - IBM Security FED/Design team
+  - Design Jams
 ---
 
 As a Front End Developer, the expectation is that I have a solid understanding of the IBM Design Language and its implementation. My goal is to become fluent with the philosophy, look, and feel of the following language elements:

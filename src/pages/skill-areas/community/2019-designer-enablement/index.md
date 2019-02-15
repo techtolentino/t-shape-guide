@@ -6,6 +6,11 @@ title: "Designer Enablement"
 category: "community"
 priority: primary
 order: 1
+resources:
+    - GitHub Repo & Wiki
+    - Ploy and Rick's on-boarding activity
+    - Youtube?
+    - Mural 
 ---
 
 In the context of product teams, I believe that every designer should have option of having the latest source code on their own computer. This would enable them to run a local server and have a closer look at what the developers have built. In addition, this can also allow designers to make code contributions if they want to. In order to enable designers to accomplish this, my goal is to:  

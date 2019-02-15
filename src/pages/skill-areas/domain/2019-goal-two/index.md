@@ -5,4 +5,7 @@ date: ""
 title: ""
 category: "domain"
 order: 2
+resources:
+  - resource item
+  - resource item
 ---

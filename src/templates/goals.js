@@ -35,6 +35,18 @@ export default function Template({ data }) {
               />
             </div>
           </div>
+          <div className="bx--row">
+            <div className="bx--col-lg-8 bx--offset-lg-1">
+              <div className="page--content">
+              <p><strong>Resources</strong></p>
+              <ul>
+                {goal.frontmatter.resources.map(item => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </Layout>
@@ -50,6 +62,7 @@ export const postQuery = graphql`
         title
         date
         category
+        resources
       }
     }
   }

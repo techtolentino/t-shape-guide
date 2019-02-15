@@ -1,11 +1,15 @@
 ---
-path: "/development/goal-two"
+path: "/development/deployment-and-architecture"
 description: "Learning more about Continuous Integration and Delivery"
 date: "2019-02-10"
 title: "Deployment & Architecture"
 category: "development"
 priority: primary
 order: 4
+resources:
+    - Simon Finney, Jen Downs
+    - YourLearning IBM Cloud courses
+    - Travis/Jenkins CI Tutorials
 ---
 
 In my previous experience, only backend devs or the dev lead held the keys to deployment. For other developers on the team, this meant that architecture decisions, deployment processes, and automation was more of a mystery. I've always been interested in knowing how deployments work. The objective of this goal is to learn:

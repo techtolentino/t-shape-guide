@@ -6,6 +6,10 @@ title: "Learning to Lead"
 category: "leadership"
 priority: primary
 order: 2
+resources:
+    - YourLearning Courses
+    - Local leadership conferences
+    - Lead Dev conference
 ---
 One area that I feel very passionate about is in personal and professional development in others. In my own career journey, I've been a beneficiary of some inspirational leaders who have not only shaped my career, but many have also shaped me as a person. I would love to explore the required skilset for managers at IBM. A few ways that I can begin to work on this goal include the following:
 

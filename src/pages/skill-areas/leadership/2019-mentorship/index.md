@@ -5,6 +5,11 @@ date: "2019-02-10"
 title: "Mentorship"
 category: "leadership"
 order: 1
+resources:
+    - W3 Mentorship Community
+    - LinkedIn
+    - Internal IBM network
+    - Design Program Office
 ---
 
 It has always been in my personal culture to help others, specifically in areas where I'm considered an established professional. Mentorship, in my opinion, is the unofficial manager role, and I've had prior success in being both a mentee and a mentor. 

@@ -6,6 +6,9 @@ title: "Code Contributions"
 category: "development"
 priority: primary
 order: 2
+resources:
+  - IBM Security FEDs
+  - XFE application developers
 ---
 
 One of the ways that I can be most valuable on the Security team is through the contributions of code. In the next year, I envision accomplishing this through the following ways:

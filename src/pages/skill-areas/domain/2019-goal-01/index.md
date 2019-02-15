@@ -6,6 +6,10 @@ title: "Security Badges"
 category: "domain"
 priority: primary
 order: 1
+resources:
+  - YourLearning courses
+  - Krebs on Security
+  - Security Learning Academy
 ---
 
 Aside from learning through working on a product team or seeing what other designers are doing through Design Jams, I'd love to extend my understanding of the larger Enterprise Security ecosystem. 
